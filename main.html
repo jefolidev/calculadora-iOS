@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <main class = "main-container">
+        <div class="calc-container">
+            <div class = "calc-visor"> <p  id = "result"> </p>  </div>
+
+                <div class="calc-keyboard">
+                                                <!-- Row - 1 -->
+                    <div class="calc-button"> <button onclick = "clean()" class = "button-misc" id = "clear"> AC </button> </div> 
+                    <div class="calc-button"> <button onclick = "" class = "button-misc" id = "sum-or-minus"> +/- </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('%')" class = "button-misc" id = "porcent"> &percnt; </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('/')" class = "button-operator" id = "divide"> &divide </button> </div>
+                
+                
+                                                <!-- Row - 2 -->
+                    <div class="calc-button"> <button onclick = "showNumber('7')" class = "button-num" id = "7"> 7 </p></div>
+                    <div class="calc-button"> <button onclick = "showNumber('8')" class = "button-num" id = "8"> 8 </p> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('9')" class = "button-num" id = "9"> 9 </p> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('*')" class = "button-operator" id = "mult"> &times </p> </div>
+
+                                                <!-- Row - 3 -->
+                    <div class="calc-button"> <button onclick = "showNumber('4')"class = "button-num" id = "4"> 4 </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('5')" class = "button-num" id = "5"> 5 </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('6')" class = "button-num" id = "6"> 6 </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('-')" class = "button-operator" id = "minus"> &minus; </button> </div>
+            
+                                                <!-- Row - 4 -->
+                    <div class="calc-button"> <button onclick = "showNumber('1')" class = "button-num" id = "1"> 1 </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('2')" class = "button-num" id = "2"> 2 </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('3')"class = "button-num" id = "3"> 3 </button> </div>
+                    <div class="calc-button"> <button onclick = "showNumber('+')"class = "button-operator" id = "plus"> &plus; </button> </div>
+                    
+                                                <!-- Row - 5 -->
+                    <div class="calc-button" onclick = "showNumber('0')"> <button class = "button-num" id = "zero"> 0 </button></div>
+                    <div class="calc-button" onclick = "showNumber('.')"> <button class = "button-num" id = "dot"> . </button></div>
+                    <div class="calc-button"> <button onclick = "calc()" class = "button-operator" id = "equal"> = </button></div>
+        
+                </div>
+        </div>
+    </main>
+
+    <script src = "main.js"></script>
+
+</body>
+</html>
