@@ -1,6 +1,13 @@
 function showNumber(num){
+    
     var number = document.getElementById("result").innerHTML;
-    document.getElementById('result').innerHTML = number + num;
+    if (number.length < 13){
+        document.getElementById('result').innerHTML = number + num;
+    } else {
+        document.getElementById('result').innerHTML = ""
+        alert("Insira um valor menor!")
+        
+    }
 }
 
 function clean(){

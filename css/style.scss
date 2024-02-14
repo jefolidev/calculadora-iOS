@@ -4,7 +4,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
     border:none;
 
 }
@@ -38,31 +37,21 @@ body{
     border-radius: 60px;
 }
 
-// .calc-visor{
-
-
-//     display:flex;
-//     flex-shrink: 5px;
-    
-//     max-width: 340px;
-//     overflow: hidden;
-    
-//     text-overflow: ellipsis;
-
-//     background-color: rgba(0,0,0);
-
-
-//     margin-right: 30px;  
-    
-
-    
-// }
-#result{
+#result{    
     font-family: "SF Pro Display", sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     margin-right: 40px; 
+    overflow: hidden;
 
+
+}
+.gitbtn{ 
+    background-color: rgba(165,165,165,255);
+    margin: 0 auto;
+}
+img{
+    width: 50px;
 }
 
 .calc-keyboard{
@@ -128,65 +117,6 @@ button.button-operator{
 
     }
 }
-
-
-//     .calc-lin1 button{
-//         @include flexFunction(flex, row, center, center, none);
-//         width: 68px;
-//         height: 68px;
-//         border-radius: 50%;
-//         background-color: rgba(52,52,52,255); 
-
-
-//         &:hover{
-//             background-color: #cfcfcf;
-//         }
-
-//         margin-bottom: 5px;
-        
-
-//     } 
-//     .calc-lin2 button{
-//         @include flexFunction(flex, row, center, center, none);
-//         width: 68px;
-//         height: 68px;
-//         border-radius: 50%;
-//         background-color: rgba(52,52,52,255);
-//         margin-bottom: 5px;
-        
-//         &:hover{
-//             background-color: #cfcfcf;
-//         }
-//     } 
-
-//     .calc-lin3 button{
-//         @include flexFunction(flex, row, center, center, none);
-//         width: 68px;
-//         height: 68px;
-//         border-radius: 50%;
-//         background-color: rgba(52,52,52,255);
-//         margin-bottom: 5px;
-
-//         &:hover{
-//             background-color: #cfcfcf;
-//         }
-        
-//     } 
-
-//     .calc-lin4 button{
-//         @include flexFunction(flex, row, center, center, none);
-//         width: 68px;
-//         height: 68px;
-//         border-radius: 50%;
-//         background-color: rgba(255,149,3,255);
-//         margin-bottom: 5px;
-
-//         &:hover{
-//             background-color: #fee1b9;
-//         }
-//     } 
-// }
-
 
 
 
